@@ -10,15 +10,15 @@ const Dashboard = () => (
       <BitcoinGraph />
     </div>
     {/* Promo Card */}
-    <div>
+    <div className='md:col-span-1 space-y-4'>
       <PromoCard />
+    <TrendingCoins />
     </div>
     {/* Performance Section */}
     <div className="md:col-span-2">
       <PerformanceCard />
     </div>
     {/* Trending Coins */}
-    <TrendingCoins />
   </main>
 );
 
